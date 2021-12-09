@@ -1,0 +1,17 @@
+{
+    "name": "user/blog-site",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "blogSite",
+            "email": "blogSite@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "v8.74.0"
+    }
+}

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c95a46e-511e-4515-865f-148be1c32a06" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="ffaad53b-f441-4d1b-9528-8c72bc7b2015" name="localhost" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/collections" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/database" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/macroable" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="20MLHNjoP6E3zWrCq52LbczY7mX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Work\myProjects\BlogSite\view" />
+      <recent name="C:\Work\myProjects\BlogSite\view\layout\base" />
+      <recent name="C:\Work\myProjects\BlogSite\css" />
+      <recent name="C:\Work\myProjects\BlogSite\src" />
+      <recent name="C:\Work\my projects\BlogSite\view" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c95a46e-511e-4515-865f-148be1c32a06" name="Default Changelist" comment="" />
+      <created>1635849420539</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635849420539</updated>
+      <workItem from="1635849421625" duration="629000" />
+      <workItem from="1636975784334" duration="6387000" />
+      <workItem from="1636996671871" duration="12000" />
+      <workItem from="1637059629155" duration="3732000" />
+      <workItem from="1637067349428" duration="1058000" />
+      <workItem from="1637138291603" duration="18000" />
+      <workItem from="1637138558287" duration="44000" />
+      <workItem from="1637144257246" duration="451000" />
+      <workItem from="1637144903997" duration="7486000" />
+      <workItem from="1637227435425" duration="159000" />
+      <workItem from="1637228254220" duration="46000" />
+      <workItem from="1637228416605" duration="36000" />
+      <workItem from="1637228459440" duration="28000" />
+      <workItem from="1637228513525" duration="6000" />
+      <workItem from="1637228521293" duration="16186000" />
+      <workItem from="1637318977798" duration="13336000" />
+      <workItem from="1637577886490" duration="4234000" />
+      <workItem from="1637585664609" duration="3071000" />
+      <workItem from="1637588851344" duration="100000" />
+      <workItem from="1637598852088" duration="651000" />
+      <workItem from="1637661926459" duration="3175000" />
+      <workItem from="1637667081528" duration="4243000" />
+      <workItem from="1637684259456" duration="76000" />
+      <workItem from="1637750399947" duration="5490000" />
+      <workItem from="1637834269670" duration="2622000" />
+      <workItem from="1637839120466" duration="12007000" />
+      <workItem from="1637851772809" duration="4000" />
+      <workItem from="1637854857021" duration="921000" />
+      <workItem from="1637858470152" duration="229000" />
+      <workItem from="1637919632792" duration="1441000" />
+      <workItem from="1637921187772" duration="2118000" />
+      <workItem from="1638172643544" duration="3000" />
+      <workItem from="1638173439059" duration="2000" />
+      <workItem from="1638173572457" duration="887000" />
+      <workItem from="1638176243163" duration="19507000" />
+      <workItem from="1638205032991" duration="67000" />
+      <workItem from="1638262343173" duration="14317000" />
+      <workItem from="1638279427769" duration="696000" />
+      <workItem from="1638289927400" duration="1075000" />
+      <workItem from="1638353925995" duration="2329000" />
+      <workItem from="1638358978360" duration="25000" />
+      <workItem from="1638359193844" duration="16000" />
+      <workItem from="1638359573522" duration="1091000" />
+      <workItem from="1638361341289" duration="331000" />
+      <workItem from="1638361680972" duration="18000" />
+      <workItem from="1638361900796" duration="215000" />
+      <workItem from="1638362130528" duration="54000" />
+      <workItem from="1638362998459" duration="292000" />
+      <workItem from="1638363355607" duration="364000" />
+      <workItem from="1638364762760" duration="889000" />
+      <workItem from="1638435917212" duration="2620000" />
+      <workItem from="1638439569724" duration="364000" />
+      <workItem from="1638439996628" duration="378000" />
+      <workItem from="1638440546011" duration="210000" />
+      <workItem from="1638442083628" duration="1068000" />
+      <workItem from="1638443311531" duration="3750000" />
+      <workItem from="1638447103606" duration="277000" />
+      <workItem from="1638447405091" duration="2889000" />
+      <workItem from="1638450419967" duration="2927000" />
+      <workItem from="1638523874045" duration="3108000" />
+      <workItem from="1638529376728" duration="4783000" />
+      <workItem from="1638534654221" duration="2150000" />
+      <workItem from="1638537155974" duration="2540000" />
+      <workItem from="1638540242780" duration="543000" />
+      <workItem from="1638612712898" duration="1140000" />
+      <workItem from="1638614105345" duration="210000" />
+      <workItem from="1638626098918" duration="4000" />
+      <workItem from="1638628226416" duration="2000" />
+      <workItem from="1638628775212" duration="11000" />
+      <workItem from="1638784564127" duration="900000" />
+      <workItem from="1638785562052" duration="5676000" />
+      <workItem from="1638791742240" duration="3367000" />
+      <workItem from="1638872723210" duration="8406000" />
+      <workItem from="1638954753479" duration="7516000" />
+      <workItem from="1639042665632" duration="2353000" />
+      <workItem from="1639047119708" duration="3566000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="php-exception">
+          <properties name="Exception" />
+          <option name="timeStamp" value="13" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="index.php">
+        <watch expression="static::$app" language="PHP" />
+        <watch expression="$app" language="PHP" />
+        <watch expression="\Illuminate\Support\Facades\Schema::$app" language="PHP" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
