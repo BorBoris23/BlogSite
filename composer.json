@@ -12,6 +12,7 @@
         }
     ],
     "require": {
-        "illuminate/database": "v8.74.0"
+        "illuminate/database": "v8.74.0",
+        "robmorgan/phinx": "^0.12.9"
     }
 }

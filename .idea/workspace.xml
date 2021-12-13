@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c95a46e-511e-4515-865f-148be1c32a06" name="Default Changelist" comment="" />
+    <list default="true" id="4c95a46e-511e-4515-865f-148be1c32a06" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/BlogSite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BlogSite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/hi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/world.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +40,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="ffaad53b-f441-4d1b-9528-8c72bc7b2015" name="localhost" />
@@ -63,6 +71,15 @@
       <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/console" />
       <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/robmorgan/phinx" />
+      <path value="$PROJECT_DIR$/vendor/cakephp/core" />
+      <path value="$PROJECT_DIR$/vendor/cakephp/database" />
+      <path value="$PROJECT_DIR$/vendor/cakephp/datasource" />
+      <path value="$PROJECT_DIR$/vendor/cakephp/utility" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
     </include_path>
   </component>
   <component name="ProjectId" id="20MLHNjoP6E3zWrCq52LbczY7mX" />
@@ -179,7 +196,16 @@
       <workItem from="1638872723210" duration="8406000" />
       <workItem from="1638954753479" duration="7516000" />
       <workItem from="1639042665632" duration="2353000" />
-      <workItem from="1639047119708" duration="3566000" />
+      <workItem from="1639047119708" duration="4321000" />
+      <workItem from="1639053739079" duration="89000" />
+      <workItem from="1639053839563" duration="4318000" />
+      <workItem from="1639059031293" duration="1970000" />
+      <workItem from="1639071186974" duration="50000" />
+      <workItem from="1639132812616" duration="4817000" />
+      <workItem from="1639138457097" duration="2603000" />
+      <workItem from="1639227942755" duration="732000" />
+      <workItem from="1639387205542" duration="5266000" />
+      <workItem from="1639396059143" duration="6539000" />
     </task>
     <servers />
   </component>
