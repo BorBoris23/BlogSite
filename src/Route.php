@@ -28,9 +28,15 @@ class Route
     {
         return $this->path;
     }
-    public function match(string $uri): bool
+
+    public function getMethod(): string
     {
-        return preg_match('/^' . str_replace(['*', '/'], ['\w+', '\/'], $this->getPath()) . '$/',$uri);
+        return $this->method;
+    }
+
+    public function match(string $uri, string $method): bool
+    {
+        return preg_match('/^' . str_replace(['*', '/'], ['\w+', '\/'], $this->getPath()) . '$/',$uri) && $this->getMethod() === $method;
     }
 
     public function run(string $uri)

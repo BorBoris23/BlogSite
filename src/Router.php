@@ -27,7 +27,7 @@ class Router
         $uri = trim($url, '/');
         foreach ($this->routes as $route) {
             if ($route->match($uri, strtolower($method))) {
-                return $route->run($url);
+                return $route->run($uri);
             }
         }
         throw new NotFoundException('Ошибка 404. Страница не найдена');

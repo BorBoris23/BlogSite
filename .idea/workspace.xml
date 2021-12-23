@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4c95a46e-511e-4515-865f-148be1c32a06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/BlogSite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BlogSite.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/AuthorController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/CheckCookieController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/LogAutControllers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/RegistController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DbQueries.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/AuthorizationView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/HomePageView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/PageView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/RegistrationView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/authorization.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/layout/base/head.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/layout/base/navigation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/registration.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/hi.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/world.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/myStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/myStyles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/StaticPageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/StaticPageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Rendering.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/Rendering.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/View.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/homepage.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/homepage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/layout/base/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/layout/base/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/layout/base/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/layout/base/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/posts/posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/posts/posts.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +67,7 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="ffaad53b-f441-4d1b-9528-8c72bc7b2015" name="localhost" />
@@ -83,7 +111,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="20MLHNjoP6E3zWrCq52LbczY7mX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -93,19 +123,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../резервная копия/BlogSite" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Work\myProjects\BlogSite\blog" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Work\myProjects\BlogSite\view" />
-      <recent name="C:\Work\myProjects\BlogSite\view\layout\base" />
-      <recent name="C:\Work\myProjects\BlogSite\css" />
+      <recent name="C:\Work\myProjects\BlogSite\src\View" />
+      <recent name="C:\Work\myProjects\BlogSite\view\mainView" />
       <recent name="C:\Work\myProjects\BlogSite\src" />
-      <recent name="C:\Work\my projects\BlogSite\view" />
+      <recent name="C:\Work\myProjects\BlogSite\src\Controllers" />
     </key>
   </component>
   <component name="RunManager">
@@ -205,12 +238,53 @@
       <workItem from="1639138457097" duration="2603000" />
       <workItem from="1639227942755" duration="732000" />
       <workItem from="1639387205542" duration="5266000" />
-      <workItem from="1639396059143" duration="6539000" />
+      <workItem from="1639396059143" duration="8646000" />
+      <workItem from="1639476926886" duration="1892000" />
+      <workItem from="1639478875119" duration="40000" />
+      <workItem from="1639478941193" duration="13000" />
+      <workItem from="1639478962687" duration="596000" />
+      <workItem from="1639479588543" duration="6337000" />
+      <workItem from="1639486293847" duration="4694000" />
+      <workItem from="1639565113028" duration="12200000" />
+      <workItem from="1639577417538" duration="3046000" />
+      <workItem from="1639588713379" duration="478000" />
+      <workItem from="1639648769894" duration="14528000" />
+      <workItem from="1639663638150" duration="460000" />
+      <workItem from="1639664108985" duration="1297000" />
+      <workItem from="1639665549422" duration="606000" />
+      <workItem from="1639724516969" duration="10426000" />
+      <workItem from="1639740237140" duration="1827000" />
+      <workItem from="1639902577930" duration="62000" />
+      <workItem from="1639938327606" duration="86000" />
+      <workItem from="1639995722718" duration="4195000" />
+      <workItem from="1640003899736" duration="4433000" />
+      <workItem from="1640016276960" duration="12000" />
+      <workItem from="1640089970169" duration="8270000" />
+      <workItem from="1640098531869" duration="206000" />
+      <workItem from="1640098746457" duration="13000" />
+      <workItem from="1640098770328" duration="238000" />
+      <workItem from="1640160292173" duration="39000" />
+      <workItem from="1640171538715" duration="838000" />
+      <workItem from="1640172552701" duration="157000" />
+      <workItem from="1640172721159" duration="9431000" />
+      <workItem from="1640191736707" duration="604000" />
     </task>
+    <task id="LOCAL-00001" summary="add phinx and create new tables">
+      <created>1639402951222</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639402951222</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add phinx and create new tables" />
+    <option name="LAST_COMMIT_MESSAGE" value="add phinx and create new tables" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -221,13 +295,6 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="index.php">
-        <watch expression="static::$app" language="PHP" />
-        <watch expression="$app" language="PHP" />
-        <watch expression="\Illuminate\Support\Facades\Schema::$app" language="PHP" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
