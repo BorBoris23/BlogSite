@@ -1,14 +1,10 @@
 <?php
-namespace App\Controllers;
+namespace App\Pages\HomePage;
 
-use App\View\HomePageView;
-//use App\View\View;
-
-class HomeController
+class HomePageController
 {
     public function index()
     {
-//        return new View('homepage', ['title' => 'Index Page']);
         $HomePageView = new HomePageView(CheckCookieController::isCookie());
         return $HomePageView->render();
     }

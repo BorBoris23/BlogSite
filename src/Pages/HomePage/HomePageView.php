@@ -1,5 +1,7 @@
 <?php
-namespace App\View;
+namespace App\Pages\HomePage;
+
+use App\View\PageView;
 
 class HomePageView extends PageView
 {
@@ -32,5 +34,4 @@ class HomePageView extends PageView
                 <a class="btn btn-sm btn-outline-secondary" href="/authorization">Log in</a>';
         }
     }
-
 }

@@ -1,5 +1,5 @@
 <?php
-namespace App\Controllers;
+namespace App\Pages\Authorization;
 
 class LogAutControllers
 {

@@ -5,38 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c95a46e-511e-4515-865f-148be1c32a06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controllers/AuthorController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controllers/CheckCookieController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controllers/LogAutControllers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controllers/RegistController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DbQueries.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/AuthorizationView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/HomePageView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/PageView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/RegistrationView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/authorization.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/layout/base/head.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/layout/base/navigation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/registration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/20211210125459_my_first_migration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Role.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/UsersHasRoles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Admin/AdminController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Admin/AdminModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Admin/AdminPageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Admin/AdminView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Authorization/AuthorizationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Authorization/AuthorizationPageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Registration/RegistrationPageController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/blog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/blog.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/myStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/myStyles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/AuthorController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/CheckCookieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/HomePage/CheckCookieController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/HomePage/HomePageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/LogAutControllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Authorization/LogAutControllers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/RegistController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Registration/RegistrationController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controllers/StaticPageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/StaticPageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Route.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/Rendering.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/Rendering.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/View.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/homepage.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/homepage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/layout/base/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/layout/base/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/layout/base/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/layout/base/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/posts/posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/posts/posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DbQueries.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/NotFoundException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/NotFoundException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/AuthorizationView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Authorization/AuthorizationView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/HomePageView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/HomePage/HomePageView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/PageView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/PageView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/RegistrationView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Registration/RegistrationView.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +117,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../резервная копия/BlogSite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Eight queens problem" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
@@ -134,11 +128,11 @@
       <recent name="C:\Work\myProjects\BlogSite\blog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Work\myProjects\BlogSite\view" />
-      <recent name="C:\Work\myProjects\BlogSite\src\View" />
-      <recent name="C:\Work\myProjects\BlogSite\view\mainView" />
-      <recent name="C:\Work\myProjects\BlogSite\src" />
-      <recent name="C:\Work\myProjects\BlogSite\src\Controllers" />
+      <recent name="C:\Work\myProjects\BlogSite\src\Pages" />
+      <recent name="C:\Work\myProjects\BlogSite\src\Authorization" />
+      <recent name="C:\Work\myProjects\BlogSite\src\HomePage" />
+      <recent name="C:\Work\myProjects\BlogSite\src\registration" />
+      <recent name="C:\Work\myProjects\BlogSite\src\homePage" />
     </key>
   </component>
   <component name="RunManager">
@@ -268,6 +262,22 @@
       <workItem from="1640172552701" duration="157000" />
       <workItem from="1640172721159" duration="9431000" />
       <workItem from="1640191736707" duration="604000" />
+      <workItem from="1640259720299" duration="9468000" />
+      <workItem from="1640539811224" duration="4000" />
+      <workItem from="1640609127452" duration="5939000" />
+      <workItem from="1640616647253" duration="30000" />
+      <workItem from="1640617026069" duration="15000" />
+      <workItem from="1640617578224" duration="23000" />
+      <workItem from="1640682875414" duration="9000" />
+      <workItem from="1640683069688" duration="4000" />
+      <workItem from="1640685167171" duration="12220000" />
+      <workItem from="1640697936518" duration="2403000" />
+      <workItem from="1640700577413" duration="341000" />
+      <workItem from="1640701361066" duration="596000" />
+      <workItem from="1640716177076" duration="229000" />
+      <workItem from="1640775734129" duration="13358000" />
+      <workItem from="1640858815648" duration="1568000" />
+      <workItem from="1640862880602" duration="4500000" />
     </task>
     <task id="LOCAL-00001" summary="add phinx and create new tables">
       <created>1639402951222</created>
@@ -276,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639402951222</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new project architecture">
+      <created>1640259777976</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640259777976</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +301,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add phinx and create new tables" />
-    <option name="LAST_COMMIT_MESSAGE" value="add phinx and create new tables" />
+    <MESSAGE value="new project architecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="new project architecture" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

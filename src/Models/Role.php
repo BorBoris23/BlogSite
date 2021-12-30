@@ -10,15 +10,13 @@ use Illuminate\Database\Eloquent\Builder;
  * @mixin Builder
  */
 
-class User extends Model
+class Role extends Model
 {
-    protected $table = 'users';
+    protected $table = 'roles';
     public $timestamps = false;
 
-    public function roles()
+    public function users()
     {
-        return $this->belongsToMany(Role::class, 'users_has_roles', 'user_id');
+        return $this->belongsToMany(User::class, 'users_has_roles', 'role_id');
     }
 }
-
-

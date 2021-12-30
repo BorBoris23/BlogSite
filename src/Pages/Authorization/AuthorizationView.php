@@ -1,5 +1,7 @@
 <?php
-namespace App\View;
+namespace App\Pages\Authorization;
+
+use App\View\PageView;
 
 class AuthorizationView extends PageView
 {

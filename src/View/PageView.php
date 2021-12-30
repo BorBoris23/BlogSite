@@ -25,6 +25,7 @@ abstract class PageView
                     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/blog/">
                     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
                           rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+                    <link rel="stylesheet" href="/css/myStyles.css">
                     <style>
                         .bd-placeholder-img {
                             font-size: 1.125rem;
@@ -95,18 +96,10 @@ abstract class PageView
         return
             '<div class="nav-scroller py-1 mb-2">
                 <nav class="nav d-flex justify-content-between">
+                    <a class="p-2 link-secondary" href="/">Main</a>
+                    <a class="p-2 link-secondary" href="/admin">Admin</a>
                     <a class="p-2 link-secondary" href="/about">About Us</a>
                     <a class="p-2 link-secondary" href="/posts">Post</a>
-                    <a class="p-2 link-secondary" href="/">Main</a>
-                    <a class="p-2 link-secondary" href="#">Design</a>
-                    <a class="p-2 link-secondary" href="#">Culture</a>
-                    <a class="p-2 link-secondary" href="#">Business</a>
-                    <a class="p-2 link-secondary" href="#">Politics</a>
-                    <a class="p-2 link-secondary" href="#">Opinion</a>
-                    <a class="p-2 link-secondary" href="#">Science</a>
-                    <a class="p-2 link-secondary" href="#">Health</a>
-                    <a class="p-2 link-secondary" href="#">Style</a>
-                    <a class="p-2 link-secondary" href="#">Travel</a>
                 </nav>
             </div>';
     }

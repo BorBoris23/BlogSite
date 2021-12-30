@@ -1,5 +1,7 @@
 <?php
-namespace App\View;
+namespace App\Pages\Registration;
+
+use App\View\PageView;
 
 class RegistrationView extends PageView
 {
@@ -7,7 +9,7 @@ class RegistrationView extends PageView
     {
         return
             '<h1 class="">Registration</h1>
-            <form name="registration" class="" action="#" method="post">
+            <form name="Registration" class="" action="#" method="post">
                 <input type="text" placeholder="Enter your name" class="" required name="name">
                 <input type="text" placeholder="Enter your user name" class="" required name="login">
                 <input type="email" placeholder="Enter your email" class="" required name="email">

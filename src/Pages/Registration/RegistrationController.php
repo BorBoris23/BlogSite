@@ -1,15 +1,15 @@
 <?php
-namespace App\Controllers;
+namespace App\Pages\Registration;
 
 use App\Models\User;
-use App\DbQueries;
 
-class RegistController
+class RegistrationController
 {
     public function doRegistration()
     {
-        if(DbQueries::selectUserByLogin($_POST['login']) === null &&
-            DbQueries::selectUserByEmail($_POST['email']) === null) {
+        $User = User::where('login', '=', $_POST['login'])->first();
+
+        if($User === null) {
             $table = new User;
             $table->name = $_POST['name'];
             $table->login = $_POST['login'];
