@@ -32,37 +32,24 @@ class AdminView extends PageView
                             <span class="">Имя пользователя</span>
                             ' . $user->login . '
                         </div>
-                        <div class="">
-                            <span class="">Список ролей<span class="">
-                            <form enctype="application/x-www-form-urlencoded" class="order-item__title changeRole" method="post" action="#">
-                                ' . $this->renderRolesListItems($user->login) . '
-                                <input type="hidden" name="loginId" value="' . $user->id . '">
-                                <input type="hidden" name="action_name" value="checkbox_change">
-                                <input type="submit">
-                            </form>
-                        </div>
+                        <span class="">Список ролей<span class="">
+                        ' . $this->renderRolesListItems($user) . '
                     </div>
                 </li>';
         }
         return $result;
     }
 
-    private function renderRolesListItems($login)
+    private function renderRolesListItems($user)
     {
         $result = '';
         foreach ($this->roles as $role) {
-            $result .= '<input type="checkbox" ' . ($this->hasUserTheDesiredRole($role['name'],
-                    $this->adminModel->getUserRoles($login)) ? 'checked' : '') . '  name="' . $role->name . '"> ' . $role->name . ' <br>';
+            $result .= '<div class="userInfo" userId="'.$user->id .'">
+                            <input class="changeRole" type="checkbox" ' . (in_array($role['name'],
+                            $this->adminModel->getUserRoles($user->login)) ? 'checked' : '') . '  name="' . $role->name . '" value="checkbox_change"> ' . $role->name . ' <br>
+                        </div>';
         }
         return $result;
     }
-
-    private function hasUserTheDesiredRole($role, $userRoles)
-    {
-        if (in_array($role, $userRoles)) {
-            return true;
-        } else {
-            return false;
-        }
-    }
 }
+

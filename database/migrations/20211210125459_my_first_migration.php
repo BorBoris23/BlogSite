@@ -26,10 +26,11 @@ final class MyFirstMigration extends AbstractMigration
             ->create();
 
         $table = $this->table('users_has_roles');
-        $table->addColumn('user_id', 'integer', ['null' => false])
-            ->addColumn('role_id', 'integer', ['null' => false])
-            ->addForeignKey('user_id', 'users', ['id'], ['constraint' => 'fk_roles_has_users_roles'])
-            ->addForeignKey('role_id', 'roles', ['id'], ['constraint' => 'fk_roles_has_users_roles1'])
+        $table->addColumn('user_id', 'integer', ['null' => true])
+            ->addColumn('role_id', 'integer', ['null' => true])
+            ->addIndex(['user_id', 'role_id'], ['unique' => true, 'name' => 'fk_link_table_role1_idx', 'order' => ['roles_id' => 'ASC']])
+            ->addForeignKey('user_id', 'users', ['id'], ['delete'=> 'SET_NULL', 'update'=> 'NO_ACTION', 'constraint' => 'fk_roles_has_users_roles'])
+            ->addForeignKey('role_id', 'roles', ['id'], ['delete'=> 'SET_NULL', 'update'=> 'NO_ACTION', 'constraint' => 'fk_roles_has_users_roles1'])
             ->create();
     }
 }

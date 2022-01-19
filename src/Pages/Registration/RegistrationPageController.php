@@ -5,7 +5,7 @@ class RegistrationPageController
 {
     public function registration()
     {
-        $authorization = new RegistrationView();
-        return $authorization->render();
+        $registration = new RegistrationView(new RegistrationModel());
+        return $registration->render();
     }
 }

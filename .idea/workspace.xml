@@ -4,33 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c95a46e-511e-4515-865f-148be1c32a06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/migrations/20211210125459_my_first_migration.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/Role.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/UsersHasRoles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Admin/AdminController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Admin/AdminModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Admin/AdminPageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Admin/AdminView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Authorization/AuthorizationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Authorization/AuthorizationPageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Registration/RegistrationPageController.php" afterDir="false" />
+    <list default="true" id="4c95a46e-511e-4515-865f-148be1c32a06" name="Default Changelist" comment="add many to many insert">
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/DuplicateUserNameException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Registration/RegistrationModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/myStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/myStyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/AuthorController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/CheckCookieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/HomePage/CheckCookieController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/HomePage/HomePageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/LogAutControllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Authorization/LogAutControllers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/RegistController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Registration/RegistrationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/StaticPageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/StaticPageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DbQueries.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/NotFoundException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/NotFoundException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/AuthorizationView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Authorization/AuthorizationView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/HomePageView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/HomePage/HomePageView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/20211210125459_my_first_migration.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/20211210125459_my_first_migration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/ApplicationException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/ApplicationException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/HttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/HttpException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Admin/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Admin/AdminModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Admin/AdminModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Admin/AdminView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Admin/AdminView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Registration/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Registration/RegistrationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Registration/RegistrationPageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Registration/RegistrationPageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Registration/RegistrationView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Registration/RegistrationView.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/PageView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/PageView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/RegistrationView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Registration/RegistrationView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/Rendering.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Rendering.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/View.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +38,7 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="package.json" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -113,11 +105,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Constants" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Eight queens problem" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WarhammerWB" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
@@ -128,11 +121,11 @@
       <recent name="C:\Work\myProjects\BlogSite\blog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Work\myProjects\BlogSite\src\Pages" />
-      <recent name="C:\Work\myProjects\BlogSite\src\Authorization" />
-      <recent name="C:\Work\myProjects\BlogSite\src\HomePage" />
-      <recent name="C:\Work\myProjects\BlogSite\src\registration" />
-      <recent name="C:\Work\myProjects\BlogSite\src\homePage" />
+      <recent name="C:\Work\myProjects\BlogSite\src\View" />
+      <recent name="C:\Work\myProjects\BlogSite\src\Exceptions" />
+      <recent name="C:\Work\myProjects\BlogSite\src\Models" />
+      <recent name="C:\Work\myProjects\BlogSite\src\Exceptions\DublicateUserNameException" />
+      <recent name="C:\Work\myProjects\BlogSite" />
     </key>
   </component>
   <component name="RunManager">
@@ -277,7 +270,14 @@
       <workItem from="1640716177076" duration="229000" />
       <workItem from="1640775734129" duration="13358000" />
       <workItem from="1640858815648" duration="1568000" />
-      <workItem from="1640862880602" duration="4500000" />
+      <workItem from="1640862880602" duration="7805000" />
+      <workItem from="1641815607868" duration="13027000" />
+      <workItem from="1641902050135" duration="11531000" />
+      <workItem from="1641986620786" duration="14754000" />
+      <workItem from="1642159728793" duration="8149000" />
+      <workItem from="1642168023938" duration="380000" />
+      <workItem from="1642415032708" duration="10483000" />
+      <workItem from="1642491560288" duration="9662000" />
     </task>
     <task id="LOCAL-00001" summary="add phinx and create new tables">
       <created>1639402951222</created>
@@ -293,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640259777976</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add many to many insert">
+      <created>1640867619133</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1640867619133</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +309,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add phinx and create new tables" />
     <MESSAGE value="new project architecture" />
-    <option name="LAST_COMMIT_MESSAGE" value="new project architecture" />
+    <MESSAGE value="add many to many insert" />
+    <option name="LAST_COMMIT_MESSAGE" value="add many to many insert" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -313,6 +321,11 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="index.php">
+        <watch expression="$this" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

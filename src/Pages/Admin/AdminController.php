@@ -7,37 +7,22 @@ use App\Models\User;
 
 class AdminController
 {
-    private $roles;
+    private $role;
+    private $user;
 
     public function __construct()
     {
-        $this->roles = Role::all();
+        $this->role = Role::where('name', $_POST['roleName'])->firstOrFail();
+        $this->user = User::find(intval($_POST['userId']));
     }
 
     public function changeUserRole()
     {
-        foreach ($this->roles as $role) {
-
-            if($this->checkKeys($role['name']) === true) {
-                $user = User::find(intval($_POST['loginId']));
-                $user->roles()->attach($role['id']);
-            } else {
-                $user = User::find(intval($_POST['loginId']));
-                $user->roles()->detach($role['id']);
-            }
+        if($_POST['checkbox'] === 'on') {
+            $this->user->roles()->attach($this->role['id']);
         }
-    }
-
-    private function checkKeys($kye)
-    {
-        if (isset($kye)) {
-            if (array_key_exists($kye, $_POST)) {
-                return true;
-            } else {
-                return false;
-            }
-        } else {
-            return false;
+        else {
+            $this->user->roles()->detach($this->role['id']);
         }
     }
 }

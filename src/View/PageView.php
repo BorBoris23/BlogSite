@@ -1,10 +1,10 @@
 <?php
-
 namespace App\View;
 
-abstract class PageView
+abstract class PageView implements Rendering
 {
-    public function render() {
+    public function render()
+    {
         return
             $this->renderHead() .
             $this->renderBody();
@@ -42,7 +42,8 @@ abstract class PageView
                     </style>
                     <link href="/css/bootstrap/blog.css" rel="stylesheet">
                     <link href="/css/bootstrap/blog.rtl.css" rel="stylesheet">
-                    <link
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                    <script type="text/javascript" src="/js/ajax.js"></script>
                 </head>';
     }
 
@@ -100,6 +101,7 @@ abstract class PageView
                     <a class="p-2 link-secondary" href="/admin">Admin</a>
                     <a class="p-2 link-secondary" href="/about">About Us</a>
                     <a class="p-2 link-secondary" href="/posts">Post</a>
+                    <a class="p-2 link-secondary" href="test.php">Test</a>
                 </nav>
             </div>';
     }

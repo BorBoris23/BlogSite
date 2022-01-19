@@ -11,8 +11,8 @@ class AdminModel
 
     public function __construct()
     {
-        $this->users = User::all();
-        $this->roles = Role::all();
+        $this->users = User::all()->except([1]);
+        $this->roles = Role::all()->except([1]);
     }
 
     public function getUserRoles($login)
