@@ -5,11 +5,11 @@ abstract class PageView implements Rendering
 {
     public function render()
     {
+//        'rcho';
         return
             $this->renderHead() .
             $this->renderBody();
     }
-
     public function renderHead()
     {
         return
@@ -71,12 +71,12 @@ abstract class PageView implements Rendering
                     <div class="col-4 text-center">
                         <a class="blog-header-logo text-dark" href="#">My first BlogSite</a>
                     </div>
-                    ' . $this->renderHeaderCol4() . '
+                    ' . $this->renderUsersMenu() . '
                 </div>
             </header>';
     }
 
-    public function renderHeaderCol4()
+    public function renderUsersMenu()
     {
         return
             '<div class="col-4 d-flex justify-content-end align-items-center">
@@ -101,7 +101,6 @@ abstract class PageView implements Rendering
                     <a class="p-2 link-secondary" href="/admin">Admin</a>
                     <a class="p-2 link-secondary" href="/about">About Us</a>
                     <a class="p-2 link-secondary" href="/posts">Post</a>
-                    <a class="p-2 link-secondary" href="test.php">Test</a>
                 </nav>
             </div>';
     }

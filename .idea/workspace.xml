@@ -4,24 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c95a46e-511e-4515-865f-148be1c32a06" name="Default Changelist" comment="add many to many insert">
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/DuplicateUserNameException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Registration/RegistrationModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
+    <list default="true" id="4c95a46e-511e-4515-865f-148be1c32a06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/InvalidPasswordException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/NoUserWithThisLoginException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/PageModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/UsersMenu/Authorization/AuthorizationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/UsersMenu/Authorization/AuthorizationPageModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/UsersMenu/Authorization/AuthorizationView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/UsersMenu/PersonalArea/PersonalAreaPageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/UsersMenu/PersonalArea/PersonalAreaPageModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/UsersMenu/PersonalArea/PersonalAreaView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/UsersMenu/Registration/RegistrationPageModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/UsersMenu/Registration/RegistrationView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/UsersMenu/UsersMenuView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RouteManager.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/20211210125459_my_first_migration.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/20211210125459_my_first_migration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ajax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/ApplicationException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/ApplicationException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/HttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/HttpException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Admin/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Admin/AdminModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Admin/AdminModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Admin/AdminView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Admin/AdminView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Registration/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Registration/RegistrationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Registration/RegistrationPageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Registration/RegistrationPageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Registration/RegistrationView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Registration/RegistrationView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/StaticPageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hlam/Controllers/StaticPageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Authorization/AuthorizationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Authorization/AuthorizationPageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/UsersMenu/Authorization/AuthorizationPageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Authorization/AuthorizationView.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Authorization/LogAutControllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/UsersMenu/Authorization/LogAutController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/HomePage/HomePageView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/HomePage/HomePageView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Registration/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/UsersMenu/Registration/RegistrationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Registration/RegistrationModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Registration/RegistrationPageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/UsersMenu/Registration/RegistrationPageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Registration/RegistrationView.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/PageView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/PageView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/Rendering.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Rendering.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/View.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hlam/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hlam/view/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/authorization.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hlam/view/authorization.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/errors/error.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hlam/view/errors/error.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/homepage.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hlam/view/homepage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/layout/base/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hlam/view/layout/base/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/layout/base/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hlam/view/layout/base/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/layout/base/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hlam/view/layout/base/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/layout/base/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hlam/view/layout/base/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hlam/view/posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/posts/posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hlam/view/posts/posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hlam/view/registration.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,11 +142,11 @@
       <recent name="C:\Work\myProjects\BlogSite\blog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Work\myProjects\BlogSite\Hlam" />
+      <recent name="C:\Work\myProjects\BlogSite" />
+      <recent name="C:\Work\myProjects\BlogSite\src\Pages\AuthorOreRegistr" />
       <recent name="C:\Work\myProjects\BlogSite\src\View" />
       <recent name="C:\Work\myProjects\BlogSite\src\Exceptions" />
-      <recent name="C:\Work\myProjects\BlogSite\src\Models" />
-      <recent name="C:\Work\myProjects\BlogSite\src\Exceptions\DublicateUserNameException" />
-      <recent name="C:\Work\myProjects\BlogSite" />
     </key>
   </component>
   <component name="RunManager">
@@ -278,6 +299,10 @@
       <workItem from="1642168023938" duration="380000" />
       <workItem from="1642415032708" duration="10483000" />
       <workItem from="1642491560288" duration="9662000" />
+      <workItem from="1642585848108" duration="9893000" />
+      <workItem from="1642600263030" duration="1350000" />
+      <workItem from="1642675527491" duration="5865000" />
+      <workItem from="1642757176390" duration="2867000" />
     </task>
     <task id="LOCAL-00001" summary="add phinx and create new tables">
       <created>1639402951222</created>
@@ -300,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640867619133</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="registration exception">
+      <created>1642585952671</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642585952671</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +342,8 @@
     <MESSAGE value="add phinx and create new tables" />
     <MESSAGE value="new project architecture" />
     <MESSAGE value="add many to many insert" />
-    <option name="LAST_COMMIT_MESSAGE" value="add many to many insert" />
+    <MESSAGE value="registration exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="registration exception" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

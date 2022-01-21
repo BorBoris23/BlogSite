@@ -1,11 +1,11 @@
 <?php
-namespace App\Pages\Registration;
+namespace App\Pages\UsersMenu\Registration;
 
 class RegistrationPageController
 {
     public function registration()
     {
-        $registration = new RegistrationView(new RegistrationModel());
+        $registration = new RegistrationView(new RegistrationPageModel());
         return $registration->render();
     }
 }

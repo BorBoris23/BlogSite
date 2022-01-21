@@ -1,5 +1,5 @@
 <?php
-namespace App\Pages\Registration;
+namespace App\Pages\UsersMenu\Registration;
 use App\Exceptions\ApplicationException;
 use App\Exceptions\DuplicateUserNameException;
 use App\Models\User;
@@ -10,7 +10,7 @@ class RegistrationController
 
     public function __construct()
     {
-        $this->registrationModel = new RegistrationModel();
+        $this->registrationModel = new RegistrationPageModel();
     }
 
     public function doRegistration()

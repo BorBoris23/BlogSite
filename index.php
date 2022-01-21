@@ -3,16 +3,16 @@ use App\Router;
 use App\Application;
 use App\Pages\HomePage\HomePageController;
 
-use App\Pages\Authorization\AuthorizationPageController;
-use App\Pages\Authorization\AuthorizationController;
-use App\Pages\Authorization\LogAutControllers;
+use App\Pages\UsersMenu\Authorization\AuthorizationPageController;
+use App\Pages\UsersMenu\Authorization\AuthorizationController;
+use App\Pages\UsersMenu\Authorization\LogAutController;
+use App\Pages\UsersMenu\PersonalArea\PersonalAreaPageController;
 
-use App\Pages\Registration\RegistrationPageController;
-use App\Pages\Registration\RegistrationController;
+use App\Pages\UsersMenu\Registration\RegistrationPageController;
+use App\Pages\UsersMenu\Registration\RegistrationController;
 
 use App\Pages\Admin\AdminPageController;
 use App\pages\Admin\AdminController;
-
 
 error_reporting(E_ALL);
 ini_set('display_errors',true);
@@ -25,7 +25,8 @@ $router->get('', [HomePageController::class, 'index']);
 
 $router->get('authorization', [AuthorizationPageController::class, 'authorization']);
 $router->post('authorization', [AuthorizationController::class, 'doAuthorization']);
-$router->get('logAut', [LogAutControllers::class, 'logAut']);
+$router->get('logAut', [LogAutController::class, 'logAut']);
+$router->get('personalArea', [PersonalAreaPageController::class, 'personalArea']);
 
 $router->get('registration', [RegistrationPageController::class, 'registration']);
 $router->post('registration', [RegistrationController::class, 'doRegistration']);
