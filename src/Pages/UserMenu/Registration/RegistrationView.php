@@ -1,9 +1,9 @@
 <?php
-namespace App\Pages\UsersMenu\Registration;
+namespace App\Pages\UserMenu\Registration;
 
-use App\Pages\UsersMenu\UsersMenuView;
+use App\Pages\UserMenu\UserMenuView;
 
-class RegistrationView extends UsersMenuView
+class RegistrationView extends UserMenuView
 {
     public function renderContent()
     {

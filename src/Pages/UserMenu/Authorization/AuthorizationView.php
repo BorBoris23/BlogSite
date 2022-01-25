@@ -1,9 +1,9 @@
 <?php
-namespace App\Pages\UsersMenu\Authorization;
+namespace App\Pages\UserMenu\Authorization;
 
-use App\Pages\UsersMenu\UsersMenuView;
+use App\Pages\UserMenu\UserMenuView;
 
-class AuthorizationView extends UsersMenuView
+class AuthorizationView extends UserMenuView
 {
     public function renderContent()
     {

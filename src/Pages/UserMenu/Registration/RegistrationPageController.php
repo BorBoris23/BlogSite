@@ -1,5 +1,5 @@
 <?php
-namespace App\Pages\UsersMenu\Registration;
+namespace App\Pages\UserMenu\Registration;
 
 class RegistrationPageController
 {

@@ -8,11 +8,11 @@ use Illuminate\Database\Capsule\Manager as Capsule;
 
 class Application
 {
-    private Router $router;
+    public Router $router;
 
-    public function __construct(Router $router)
+    public function __construct()
     {
-        $this->router = $router;
+        $this->router = Router::getInstance();
         $this->initialize();
     }
 

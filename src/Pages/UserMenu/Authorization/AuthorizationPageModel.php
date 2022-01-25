@@ -1,5 +1,5 @@
 <?php
-namespace App\Pages\UsersMenu\Authorization;
+namespace App\Pages\UserMenu\Authorization;
 
 use App\Pages\PageModel;
 

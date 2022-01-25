@@ -1,26 +1,16 @@
 <?php
+namespace App;
 
-final class RouteManager
+abstract class RouteManager
 {
-    public static function getInstance() : RouteManager
+    public $router;
+
+    public function __construct()
     {
-        if(null === static::$instance) {
-            static::$instance = new static();
-        }
-        return static::$instance;
+        $this->router = Router::getInstance();
+        $this->addRoute();
     }
+
+   abstract public function addRoute();
 }
 
-
-
-
-
-
-
-//public static function getInstance() : Config
-//{
-//    if(null === static::$instance) {
-//        static::$instance = new static();
-//    }
-//    return static::$instance;
-//}

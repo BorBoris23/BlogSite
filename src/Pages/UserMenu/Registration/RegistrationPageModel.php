@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Pages\UsersMenu\Registration;
+namespace App\Pages\UserMenu\Registration;
 
 use App\Pages\PageModel;
 

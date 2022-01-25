@@ -1,5 +1,5 @@
 <?php
-namespace App\Pages\UsersMenu\PersonalArea;
+namespace App\Pages\UserMenu\PersonalArea;
 
 class PersonalAreaPageController
 {

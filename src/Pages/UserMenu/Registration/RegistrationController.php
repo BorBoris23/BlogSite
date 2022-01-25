@@ -1,5 +1,5 @@
 <?php
-namespace App\Pages\UsersMenu\Registration;
+namespace App\Pages\UserMenu\Registration;
 use App\Exceptions\ApplicationException;
 use App\Exceptions\DuplicateUserNameException;
 use App\Models\User;

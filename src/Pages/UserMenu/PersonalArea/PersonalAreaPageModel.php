@@ -1,5 +1,5 @@
 <?php
-namespace App\Pages\UsersMenu\PersonalArea;
+namespace App\Pages\UserMenu\PersonalArea;
 use App\Pages\PageModel;
 
 class PersonalAreaPageModel extends PageModel{}

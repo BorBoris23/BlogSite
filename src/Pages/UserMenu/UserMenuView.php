@@ -1,9 +1,9 @@
 <?php
-namespace App\Pages\UsersMenu;
+namespace App\Pages\UserMenu;
 
 use App\View\PageView;
 
-class UsersMenuView extends PageView
+class UserMenuView extends PageView
 {
     public $model;
     public $exception;
