@@ -3,15 +3,25 @@ namespace App\Pages\Admin;
 
 use App\Models\Role;
 use App\Models\User;
+use Illuminate\Database\Capsule\Manager as Capsule;
 
 class AdminModel
 {
     public $users;
     public $roles;
+    private $limit;
+    private $offset;
+    public $rowCount;
 
-    public function __construct()
+    public function __construct($pageSize, $pageNumber)
     {
-        $this->users = User::all()->except([1]);
+        $this->limit = $pageSize;
+        $this->offset = ($pageNumber - 1) * $pageSize;
+        $this->rowCount = User::all()->count();
+        $this->users = Capsule::table('users')
+            ->offset($this->offset)
+            ->limit($this->limit)
+            ->get();
         $this->roles = Role::all()->except([1]);
     }
 

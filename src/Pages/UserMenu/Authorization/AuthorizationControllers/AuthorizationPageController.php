@@ -1,5 +1,8 @@
 <?php
-namespace App\Pages\UserMenu\Authorization;
+namespace App\Pages\UserMenu\Authorization\AuthorizationControllers;
+
+use App\Pages\UserMenu\Authorization\AuthorizationView;
+use App\Pages\UserMenu\Authorization\AuthorizationPageModel;
 
 class AuthorizationPageController
 {

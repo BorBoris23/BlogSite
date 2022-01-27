@@ -1,5 +1,7 @@
 <?php
-namespace App\Pages\HomePage;
+namespace App\Pages\HomePage\HomePageControllers;
+
+use App\Pages\HomePage\HomePageView;
 
 class HomePageController
 {

@@ -1,7 +1,7 @@
 <?php
 namespace App\Pages\UserMenu\PersonalArea;
 
-use App\Pages\UsersMenu\UserMenuView;
+use App\Pages\UserMenu\UserMenuView;
 
 class PersonalAreaView extends UserMenuView
 {

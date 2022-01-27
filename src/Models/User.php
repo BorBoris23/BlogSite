@@ -3,6 +3,8 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
+//use Illuminate\Database\Capsule\Manager as Capsule;
+
 
 /**
  * Class User

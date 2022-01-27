@@ -1,7 +1,10 @@
 <?php
-namespace App\Pages\UserMenu\Registration;
+namespace App\Pages\UserMenu\Registration\RegistrationControllers;
+
 use App\Exceptions\ApplicationException;
 use App\Exceptions\DuplicateUserNameException;
+use App\Pages\UserMenu\Registration\RegistrationPageModel;
+use App\Pages\UserMenu\Registration\RegistrationView;
 use App\Models\User;
 
 class RegistrationController

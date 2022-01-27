@@ -1,9 +1,11 @@
 <?php
-namespace App\Pages\UserMenu\Authorization;
+namespace App\Pages\UserMenu\Authorization\AuthorizationControllers;
 
 use App\Exceptions\ApplicationException;
 use App\Exceptions\InvalidPasswordException;
 use App\Exceptions\NoUserWithThisLoginException;
+use App\Pages\UserMenu\Authorization\AuthorizationPageModel;
+use App\Pages\UserMenu\Authorization\AuthorizationView;
 use App\Models\User;
 
 class AuthorizationController

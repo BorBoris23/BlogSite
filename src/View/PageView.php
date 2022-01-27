@@ -52,10 +52,10 @@ abstract class PageView implements Rendering
         return
             '<body>
                 <div class="container">
-                ' . $this->renderHeader() .
-                $this->renderNavigation() .
-                $this->renderContent() .
-                $this->renderFooter() . '
+                    ' . $this->renderHeader() .
+                    $this->renderNavigation() .
+                    $this->renderContent() .
+                    $this->renderFooter() . '
                 </div>
             </body>';
     }
@@ -69,7 +69,7 @@ abstract class PageView implements Rendering
                         <a class="link-secondary" href="#">Subscribe</a>
                     </div>
                     <div class="col-4 text-center">
-                        <a class="blog-header-logo text-dark" href="#">My first BlogSite</a>
+                        <a class="blog-header-logo text-dark" href="/">My first BlogSite</a>
                     </div>
                     ' . $this->renderUsersMenu() . '
                 </div>

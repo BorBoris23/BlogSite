@@ -1,5 +1,8 @@
 <?php
-namespace App\Pages\UserMenu\Registration;
+namespace App\Pages\UserMenu\Registration\RegistrationControllers;
+
+use App\Pages\UserMenu\Registration\RegistrationPageModel;
+use App\Pages\UserMenu\Registration\RegistrationView;
 
 class RegistrationPageController
 {

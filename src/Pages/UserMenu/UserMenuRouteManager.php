@@ -1,12 +1,12 @@
 <?php
 namespace App\Pages\UserMenu;
 
-use App\Pages\UserMenu\Authorization\AuthorizationController;
-use App\Pages\UserMenu\Authorization\AuthorizationPageController;
-use App\Pages\UserMenu\Authorization\LogAutController;
+use App\Pages\UserMenu\Authorization\AuthorizationControllers\AuthorizationController;
+use App\Pages\UserMenu\Authorization\AuthorizationControllers\AuthorizationPageController;
+use App\Pages\UserMenu\Authorization\AuthorizationControllers\LogAutController;
 use App\Pages\UserMenu\PersonalArea\PersonalAreaPageController;
-use App\Pages\UserMenu\Registration\RegistrationPageController;
-use App\Pages\UserMenu\Registration\RegistrationController;
+use App\Pages\UserMenu\Registration\RegistrationControllers\RegistrationPageController;
+use App\Pages\UserMenu\Registration\RegistrationControllers\RegistrationController;
 use App\RouteManager;
 
 class UserMenuRouteManager extends RouteManager

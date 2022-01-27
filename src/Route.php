@@ -36,6 +36,7 @@ class Route
 
     public function match(string $uri, string $method): bool
     {
+        $uri = preg_replace('/\?.*/', '', $uri);
         return preg_match('/^' . str_replace(['*', '/'], ['\w+', '\/'], $this->getPath()) . '$/',$uri) && $this->getMethod() === $method;
     }
 

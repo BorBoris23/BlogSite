@@ -1,6 +1,8 @@
 <?php
 namespace App\Pages\Admin;
 
+use App\Pages\Admin\AdminControllers\AdminController;
+use App\Pages\Admin\AdminControllers\AdminPageController;
 use App\RouteManager;
 
 class AdminPageRouteManager extends RouteManager
@@ -12,4 +14,3 @@ class AdminPageRouteManager extends RouteManager
     }
 }
 
-$a = new AdminPageRouteManager();

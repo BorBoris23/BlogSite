@@ -1,5 +1,5 @@
 <?php
-namespace App\Pages\HomePage;
+namespace App\Pages\HomePage\HomePageControllers;
 
 class CheckCookieController
 {
