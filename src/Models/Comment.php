@@ -10,19 +10,13 @@ use Illuminate\Database\Eloquent\Builder;
  * @mixin Builder
  */
 
-class Post extends Model
+class Comment extends Model
 {
-    protected $table = 'posts';
+    protected $table = 'comments';
     public $timestamps = false;
 
     public function user()
     {
         return $this->belongsTo(User::class);
     }
-
-    public function comments()
-    {
-        return $this->hasMany(Comment::class);
-    }
 }
-

@@ -20,3 +20,28 @@
     margin-top: 10px;
     border: 3px solid black;
 }
+
+.avatar {
+    width: 90px;
+    height: 120px;
+    border: 1px solid black;
+}
+
+.authorization {
+    text-align: center;
+}
+
+.authorForm {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%;
+}
+
+.authorFormItem {
+    margin-top: 10px;
+}
+
+
+
+

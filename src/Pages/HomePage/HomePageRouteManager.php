@@ -11,5 +11,3 @@ class HomePageRouteManager extends RouteManager
         $this->router->get('', [HomePageController::class, 'index']);
     }
 }
-
-$HomePageRouteManager = new HomePageRouteManager();
