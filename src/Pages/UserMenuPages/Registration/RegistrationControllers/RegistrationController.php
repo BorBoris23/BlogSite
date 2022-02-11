@@ -1,19 +1,19 @@
 <?php
-namespace App\Pages\UserMenuPage\Registration\RegistrationControllers;
+namespace App\Pages\UserMenuPages\Registration\RegistrationControllers;
 
 use App\Exceptions\ApplicationException;
 use App\Exceptions\DuplicateUserNameException;
-use App\Pages\UserMenuPage\Registration\RegistrationPageModel;
-use App\Pages\UserMenuPage\Registration\RegistrationView;
+use App\Pages\UserMenuPages\Registration\RegistrationView;
 use App\Models\User;
+use App\Pages\UserMenuPages\UserMenuPageModel;
 
 class RegistrationController
 {
-    private  $registrationModel;
+    private  $model;
 
     public function __construct()
     {
-        $this->registrationModel = new RegistrationPageModel();
+        $this->model = new UserMenuPageModel();
     }
 
     public function doRegistration()
@@ -25,15 +25,16 @@ class RegistrationController
             $table->login = $_POST['login'];
             $table->email = $_POST['email'];
             $table->password = $_POST['password'];
+            $table->pathToAvatar = 'img/users-avatars/unknown.jpg';
             $table->save();
             header("Location: /authorization");
             die();
         } catch (ApplicationException $e) {
-            $this->registrationModel->exception = $e;
-            $this->registrationModel->userName = $_POST['name'];
-            $this->registrationModel->userLogin = $_POST['login'];
-            $this->registrationModel->userEmail = $_POST['email'];
-            return new RegistrationView($this->registrationModel);
+            $this->model->exception = $e;
+            $this->model->userName = $_POST['name'];
+            $this->model->userLogin = $_POST['login'];
+            $this->model->userEmail = $_POST['email'];
+            return new RegistrationView($this->model);
         }
     }
 
@@ -41,7 +42,7 @@ class RegistrationController
     {
         $User = User::where('login', '=', $_POST['login'])->first();
         if($User !== null) {
-            throw new DuplicateUserNameException('Пользователь с таким именнем уже существует');
+            throw new DuplicateUserNameException('User with the same name already exists');
         }
     }
 }

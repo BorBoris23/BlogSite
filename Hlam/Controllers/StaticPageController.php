@@ -1,5 +1,5 @@
 <?php
-//namespace App\Controllers;
+//namespace App\PersonalAreaControllers;
 //
 //use App\View\AuthorizationView;
 //use App\View\RegistrationView;

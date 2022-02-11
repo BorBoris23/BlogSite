@@ -1,5 +1,5 @@
 <?php
-namespace App\Pages\UserMenuPage\Authorization;
+namespace App\Pages\UserMenuPages\Authorization;
 
 use App\Pages\PagesWithExceptionView;
 

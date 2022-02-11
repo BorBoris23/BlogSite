@@ -55,7 +55,7 @@ class CommentsSeeder extends AbstractSeed
                 'user_id'   => '4',
                 'post_id'   => '3',
                 'isChecked' => '1'
-            ],
+            ]
         ];
 
         $posts = $this->table('comments');

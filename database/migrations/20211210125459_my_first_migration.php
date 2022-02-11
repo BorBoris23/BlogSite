@@ -13,6 +13,7 @@ final class MyFirstMigration extends AbstractMigration
             ->addColumn('email', 'string', ['limit' => 50, 'null' => false])
             ->addColumn('password', 'string', ['limit' => 50, 'null' => false])
             ->addColumn('pathToAvatar', 'string', ['limit' => 255, 'null' => true])
+            ->addColumn('aboutMe', 'string', ['limit' => 255, 'null' => true])
             ->create();
 
         $table = $this->table('posts');
@@ -45,6 +46,14 @@ final class MyFirstMigration extends AbstractMigration
             ->addForeignKey('user_id', 'users', 'id', ['delete'=> 'SET_NULL', 'update'=> 'NO_ACTION'])
             ->addForeignKey('post_id', 'posts', 'id', ['delete'=> 'SET_NULL', 'update'=> 'NO_ACTION'])
             ->addColumn('isChecked', 'integer', ['null' => true])
+            ->create();
+
+        $table = $this->table('subscriptions');
+        $table->addColumn('user_id', 'integer', ['null' => true])
+            ->addColumn('post_id', 'integer', ['null' => true])
+            ->addColumn('created', 'timestamp', ['default' => 'CURRENT_TIMESTAMP'])
+            ->addForeignKey('user_id', 'users', 'id', ['delete'=> 'SET_NULL', 'update'=> 'NO_ACTION'])
+            ->addForeignKey('post_id', 'posts', 'id', ['delete'=> 'SET_NULL', 'update'=> 'NO_ACTION'])
             ->create();
     }
 }

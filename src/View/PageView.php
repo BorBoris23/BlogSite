@@ -103,7 +103,7 @@ abstract class PageView implements Rendering
     public function renderFooter()
     {
         return
-            '<footer class="blog-footer footer">
+            '<footer class="blog-footer footer toTheBottom">
                 <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
                 <p>
                     <a href="#">Back to top</a>

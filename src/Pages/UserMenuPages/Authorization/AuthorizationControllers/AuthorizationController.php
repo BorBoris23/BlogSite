@@ -1,20 +1,20 @@
 <?php
-namespace App\Pages\UserMenuPage\Authorization\AuthorizationControllers;
+namespace App\Pages\UserMenuPages\Authorization\AuthorizationControllers;
 
 use App\Exceptions\ApplicationException;
 use App\Exceptions\InvalidPasswordException;
 use App\Exceptions\NoUserWithThisLoginException;
-use App\Pages\UserMenuPage\Authorization\AuthorizationPageModel;
-use App\Pages\UserMenuPage\Authorization\AuthorizationView;
+use App\Pages\UserMenuPages\Authorization\AuthorizationView;
 use App\Models\User;
+use App\Pages\UserMenuPages\UserMenuPageModel;
 
 class AuthorizationController
 {
-    private  $authorizationModel;
+    private  $model;
 
     public function __construct()
     {
-        $this->authorizationModel = new AuthorizationPageModel();
+        $this->model = new UserMenuPageModel();
     }
 
     public function doAuthorization()
@@ -25,9 +25,9 @@ class AuthorizationController
             header('Location: /rules');
             die();
         } catch (ApplicationException $e) {
-            $this->authorizationModel->exception = $e;
-            $this->authorizationModel->userLogin = $_POST['loginOreEmail'];
-            return new AuthorizationView($this->authorizationModel);
+            $this->model->exception = $e;
+            $this->model->userLogin = $_POST['loginOreEmail'];
+            return new AuthorizationView($this->model);
         }
     }
 
