@@ -5,36 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c95a46e-511e-4515-865f-148be1c32a06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/configs/fileConfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/SubscriptionsSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/FileSizeIsTooBigException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/FileUploadException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/TooLongTextException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/WrongFileTypeException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/UserMenuPages/PersonalArea/PersonalAreaControllers/PersonalAreaController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/UserMenuPages/PersonalArea/PersonalAreaControllers/PersonalAreaPageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/UserMenuPages/PersonalArea/PersonalAreaView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/UserMenuPages/UserMenuPageModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Subscription.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/ProfilePage/ProfilePageControllers/ProfileController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/ProfilePage/ProfilePageControllers/ProfilePageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/ProfilePage/ProfilePageModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/ProfilePage/ProfilePageRouteManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/ProfilePage/ProfilePageView.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hlam/Controllers/StaticPageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hlam/Controllers/StaticPageController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/myStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/myStyles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/20211210125459_my_first_migration.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/20211210125459_my_first_migration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/CommentsSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/CommentsSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/PageModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/PageModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/SubscriptionsSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/SubscriptionsSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/HomePage/HomePageModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/HomePage/HomePageModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/HomePage/HomePageView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/HomePage/HomePageView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/PageModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/PageModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/PagesWithExceptionView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/PagesWithExceptionView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/PostPage/PostPageControllers/AddNewCommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/PostPage/PostPageControllers/AddNewCommentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/PostPage/PostPageControllers/PostPageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/PostPage/PostPageControllers/PostPageController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/PostPage/PostPageModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/PostPage/PostPageModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/UserMenuPage/Authorization/AuthorizationControllers/AuthorizationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/UserMenuPages/Authorization/AuthorizationControllers/AuthorizationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/UserMenuPage/Authorization/AuthorizationControllers/AuthorizationPageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/UserMenuPages/Authorization/AuthorizationControllers/AuthorizationPageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/UserMenuPage/Authorization/AuthorizationControllers/LogAutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/UserMenuPages/Authorization/AuthorizationControllers/LogAutController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/UserMenuPage/Authorization/AuthorizationPageModel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/UserMenuPage/Authorization/AuthorizationView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/UserMenuPages/Authorization/AuthorizationView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/UserMenuPage/PersonalArea/PersonalAreaPageController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/UserMenuPage/PersonalArea/PersonalAreaPageModel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/UserMenuPage/PersonalArea/PersonalAreaView.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/UserMenuPage/Registration/RegistrationControllers/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/UserMenuPages/Registration/RegistrationControllers/RegistrationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/UserMenuPage/Registration/RegistrationControllers/RegistrationPageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/UserMenuPages/Registration/RegistrationControllers/RegistrationPageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/UserMenuPage/Registration/RegistrationPageModel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/UserMenuPage/Registration/RegistrationView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/UserMenuPages/Registration/RegistrationView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/UserMenuPage/UserMenuRouteManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/UserMenuPages/UserMenuRouteManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/UserMenuPages/PersonalArea/PersonalAreaControllers/PersonalAreaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/UserMenuPages/PersonalArea/PersonalAreaControllers/PersonalAreaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/UserMenuPages/UserMenuPageModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/UserMenuPages/UserMenuPageModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Route.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/PageView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/PageView.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/connectingRouteManagers.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/connectingRouteManagers.php" afterDir="false" />
     </list>
@@ -136,11 +127,11 @@
       <recent name="C:\Work\myProjects\BlogSite\blog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Work\myProjects\BlogSite\src\Models" />
+      <recent name="C:\Work\myProjects\BlogSite\src\Pages\ProfilePage\ProfilePageControllers" />
       <recent name="C:\Work\myProjects\BlogSite\src\Pages\UserMenuPages\PersonalArea\PersonalAreaControllers" />
       <recent name="C:\Work\myProjects\BlogSite\src\Pages" />
       <recent name="C:\Work\myProjects\BlogSite\src\Pages\PostPage\PostPageControllers" />
-      <recent name="C:\Work\myProjects\BlogSite\src\Pages\UserMenu\Registration\RegistrationControllers" />
-      <recent name="C:\Work\myProjects\BlogSite\src\Pages\UserMenu\Authorization\AuthorizationControllers" />
     </key>
   </component>
   <component name="RunManager">
@@ -324,7 +315,9 @@
       <workItem from="1644402779991" duration="7965000" />
       <workItem from="1644472450174" duration="5743000" />
       <workItem from="1644494576228" duration="3385000" />
-      <workItem from="1644567370903" duration="4801000" />
+      <workItem from="1644567370903" duration="10773000" />
+      <workItem from="1644822151516" duration="19842000" />
+      <workItem from="1644905087709" duration="12531000" />
     </task>
     <task id="LOCAL-00001" summary="add phinx and create new tables">
       <created>1639402951222</created>
@@ -382,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644318061102</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="PersonalArea">
+      <created>1644572318241</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1644572318241</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,7 +397,8 @@
     <MESSAGE value="routeManager" />
     <MESSAGE value="AdminPage ready" />
     <MESSAGE value="PostPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="PostPage" />
+    <MESSAGE value="PersonalArea" />
+    <option name="LAST_COMMIT_MESSAGE" value="PersonalArea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

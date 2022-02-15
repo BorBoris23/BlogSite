@@ -1,7 +1,7 @@
 <?php
 namespace App\Pages\UserMenuPages;
 
-use App\Pages\PageModel;
+use App\Models\PageModel;
 
 class UserMenuPageModel extends PageModel
 {

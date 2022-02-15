@@ -6,12 +6,12 @@ use App\View\PageView;
 class HomePageView extends PageView
 {
     public $isLoggedIn;
-    private $HomePageModel;
+    private $model;
 
-    public function __construct($isLoggedIn, $HomePageModel)
+    public function __construct($isLoggedIn, $model)
     {
         $this->isLoggedIn = $isLoggedIn;
-        $this->HomePageModel = $HomePageModel;
+        $this->model = $model;
     }
 
     public function renderUsersMenu()
@@ -38,6 +38,29 @@ class HomePageView extends PageView
                 </main>';
     }
 
+    public function renderNavigation()
+    {
+        return '<div class="nav-scroller py-1 mb-2">
+                        <nav class="nav d-flex justify-content-between">
+                            <a class="p-2 link-secondary" href="/">Main</a>
+                            '.$this->renderAdminItem().'
+                            <a class="p-2 link-secondary" href="/rules">Rules</a>
+                        </nav>
+                    </div>';
+
+    }
+
+    private function renderAdminItem()
+    {
+        $result = '';
+        if(!empty($this->model->currentUser)) {
+            if($this->model->currentUser->login === 'SuperAdmin') {
+                $result = '<a class="p-2 link-secondary" href="/admin">AdminPage</a>';
+            }
+        }
+        return $result;
+    }
+
     private function renderTitularBlock()
     {
         return '<div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
@@ -52,7 +75,7 @@ class HomePageView extends PageView
     private function renderPostsBlock()
     {
         $result = '';
-        foreach ($this->HomePageModel->posts as $post)
+        foreach ($this->model->posts as $post)
         {
             $result .= '
                 <div class="col-md-6">
@@ -61,8 +84,10 @@ class HomePageView extends PageView
                             <h3 class="mb-0">'.$post['heading'].'</h3>
                             <p class="card-text mb-auto">'.$post['shortDescription'].'</p>
                             <div class="mb-1 text-muted">'.$post['created'].'</div>
-                            <strong class="d-inline-block mb-2">'.$post->user->name.'</strong>
-                            '.( ($this->isLoggedIn) ? '<a href="/post?postId='.$post['id'].'" class="stretched-link">go to reading</a>' : '').'    
+                            <strong class="d-inline-block mb-2">
+                                '.( ($this->isLoggedIn) ? '<a href="/profile?profileId='.$post->user->id.'">'.$post->user->name.'</a>' : '<p>'.$post->user->name.'</p>').'     
+                            </strong>
+                            '.( ($this->isLoggedIn) ? '<a href="/post?postId='.$post['id'].'">go to reading</a>' : '').'    
                         </div>
                         <div class="col-auto d-none d-lg-block">
                             <img src="'.$post['pathToPictures'].'" width="200" height="250">

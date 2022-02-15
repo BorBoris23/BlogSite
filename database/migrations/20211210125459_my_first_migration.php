@@ -49,11 +49,11 @@ final class MyFirstMigration extends AbstractMigration
             ->create();
 
         $table = $this->table('subscriptions');
-        $table->addColumn('user_id', 'integer', ['null' => true])
-            ->addColumn('post_id', 'integer', ['null' => true])
+        $table->addColumn('subscriberUser_id', 'integer', ['null' => true])
+            ->addColumn('authorUser_id', 'integer', ['null' => true])
             ->addColumn('created', 'timestamp', ['default' => 'CURRENT_TIMESTAMP'])
-            ->addForeignKey('user_id', 'users', 'id', ['delete'=> 'SET_NULL', 'update'=> 'NO_ACTION'])
-            ->addForeignKey('post_id', 'posts', 'id', ['delete'=> 'SET_NULL', 'update'=> 'NO_ACTION'])
+            ->addForeignKey('subscriberUser_id', 'users', 'id', ['delete'=> 'SET_NULL', 'update'=> 'NO_ACTION'])
+            ->addForeignKey('authorUser_id', 'users', 'id', ['delete'=> 'SET_NULL', 'update'=> 'NO_ACTION'])
             ->create();
     }
 }

@@ -56,7 +56,7 @@ class PersonalAreaController
 
     private function checkingUserLoginForDuplicate()
     {
-        $newUserLogin =  $_POST['login'];
+        $newUserLogin = $_POST['login'];
 
         if($newUserLogin !== $this->currentUser->name) {
             $User = User::where('login', '=', $_POST['login'])->first();

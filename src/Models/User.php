@@ -19,6 +19,16 @@ class User extends Model
     {
         return $this->belongsToMany(Role::class, 'users_has_roles', 'user_id');
     }
+
+    public function posts()
+    {
+        return $this->hasMany(Post::class);
+    }
+
+    public function subscriptions()
+    {
+        return $this->hasMany(Subscription::class);
+    }
 }
 
 

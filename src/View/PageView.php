@@ -1,6 +1,8 @@
 <?php
 namespace App\View;
 
+use App\Models\PageModel;
+
 abstract class PageView implements Rendering
 {
     public function render()
@@ -64,9 +66,7 @@ abstract class PageView implements Rendering
         return
             '<header class="blog-header py-3">
                 <div class="row flex-nowrap justify-content-between align-items-center">
-                    <div class="col-4 pt-1">
-                        <a class="link-secondary" href="#">Subscribe</a>
-                    </div>
+                    <div class="col-4 pt-1"></div>
                     <div class="col-4 text-center">
                         <a class="blog-header-logo text-dark" href="/">My first BlogSite</a>
                     </div>
@@ -87,27 +87,12 @@ abstract class PageView implements Rendering
     }
     abstract public function renderContent();
 
-    public function renderNavigation()
-    {
-        return
-            '<div class="nav-scroller py-1 mb-2">
-                <nav class="nav d-flex justify-content-between">
-                    <a class="p-2 link-secondary" href="/">Main</a>
-                    <a class="p-2 link-secondary" href="/admin">AdminPage</a>
-                    <a class="p-2 link-secondary" href="/about">About Us</a>
-                    <a class="p-2 link-secondary" href="/posts">Post</a>
-                </nav>
-            </div>';
-    }
-
     public function renderFooter()
     {
         return
             '<footer class="blog-footer footer toTheBottom">
                 <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-                <p>
-                    <a href="#">Back to top</a>
-                </p>
+                <p><a href="#">Back to top</a></p>
             </footer>';
     }
 }

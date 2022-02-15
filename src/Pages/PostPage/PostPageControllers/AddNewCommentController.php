@@ -7,17 +7,17 @@ use App\Pages\PostPage\PostPageModel;
 use App\Models\Comment;
 use App\Pages\PostPage\PostPageView;
 
-class  AddNewCommentController
+class AddNewCommentController
 {
-    private $postPageModel;
+    private $model;
     private $currentUser;
     private $currentPost;
 
     public function __construct()
     {
-        $this->postPageModel = new PostPageModel($_GET['postId']);
-        $this->currentUser = $this->postPageModel->currentUser;
-        $this->currentPost = $this->postPageModel->post;
+        $this->model = new PostPageModel($_GET['postId']);
+        $this->currentUser = $this->model->currentUser;
+        $this->currentPost = $this->model->post;
     }
 
     public function addNewComment()
@@ -32,9 +32,9 @@ class  AddNewCommentController
             header("Location: #");
             die();
         } catch (ApplicationException $e) {
-            $this->postPageModel->exception = $e;
-            $this->postPageModel->commentText = $_POST['message'];
-            return new PostPageView($this->postPageModel);
+            $this->model->exception = $e;
+            $this->model->commentText = $_POST['message'];
+            return new PostPageView($this->model);
         }
     }
 

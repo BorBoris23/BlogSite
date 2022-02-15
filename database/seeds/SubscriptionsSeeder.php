@@ -15,32 +15,32 @@ class SubscriptionsSeeder extends AbstractSeed
     {
         $data = [
             [
-                'user_id'   => '2',
-                'post_id'   => '1'
+                'subscriberUser_id'   => '2',
+                'authorUser_id'   => '4'
             ],
             [
-                'user_id'   => '2',
-                'post_id'   => '1'
+                'subscriberUser_id'   => '2',
+                'authorUser_id'   => '3'
             ],
             [
-                'user_id'   => '3',
-                'post_id'   => '1'
+                'subscriberUser_id'   => '3',
+                'authorUser_id'   => '2'
             ],
             [
-                'user_id'   => '4',
-                'post_id'   => '2'
+                'subscriberUser_id'   => '4',
+                'authorUser_id'   => '5'
             ],
             [
-                'user_id'   => '4',
-                'post_id'   => '3'
+                'subscriberUser_id'   => '4',
+                'authorUser_id'   => '2'
             ],
             [
-                'user_id'   => '4',
-                'post_id'   => '3'
+                'subscriberUser_id'   => '4',
+                'authorUser_id'   => '3'
             ],
             [
-                'user_id'   => '4',
-                'post_id'   => '3'
+                'subscriberUser_id'   => '4',
+                'authorUser_id'   => '5'
             ]
         ];
 
