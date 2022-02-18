@@ -1,10 +1,10 @@
 <?php
-namespace App\Pages\AdminPage\AdminControllers;
+namespace App\Pages\AdminPages\AdminControllers;
 
 use App\Models\Role;
 use App\Models\User;
 
-class AdminController
+class UserRoleChangeController
 {
     private $role;
     private $user;

@@ -6,19 +6,17 @@ use App\View\PageView;
 abstract class PagesWithExceptionView extends PageView
 {
     public $model;
-    public $exception;
 
     public function __construct($model)
     {
         $this->model = $model;
-        $this->exception = $this->model->exception;
     }
 
     public function renderExceptionMessage()
     {
         $result = '';
-        if($this->exception !== null) {
-            $result = '<div>'.$this->exception->getMessage().'</div>';
+        if($this->model->exception !== null) {
+            $result = '<div>'.$this->model->exception->getMessage().'</div>';
         }
         return $result;
     }
@@ -40,7 +38,7 @@ abstract class PagesWithExceptionView extends PageView
         $result = '';
         if(!empty($this->model->currentUser)) {
             if($this->model->currentUser->login === 'SuperAdmin') {
-                $result = '<a class="p-2 link-secondary" href="/admin">AdminPage</a>';
+                $result = '<a class="p-2 link-secondary" href="/admin">AdminPages</a>';
             }
         }
         return $result;

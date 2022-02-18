@@ -6,6 +6,7 @@ use App\Models\Post;
 class HomePageModel extends PageModel
 {
     public $posts;
+    public $exception;
 
     public function __construct()
     {

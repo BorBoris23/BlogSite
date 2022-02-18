@@ -1,15 +1,15 @@
 <?php
 namespace App\Pages\HomePage;
 
-use App\View\PageView;
+use App\Pages\PagesWithExceptionView;
 
-class HomePageView extends PageView
+class HomePageView extends PagesWithExceptionView
 {
     public $isLoggedIn;
-    private $model;
 
     public function __construct($isLoggedIn, $model)
     {
+        parent::__construct($model);
         $this->isLoggedIn = $isLoggedIn;
         $this->model = $model;
     }
@@ -36,29 +36,6 @@ class HomePageView extends PageView
                         $this->renderPostsBlock().'
                     </div>
                 </main>';
-    }
-
-    public function renderNavigation()
-    {
-        return '<div class="nav-scroller py-1 mb-2">
-                        <nav class="nav d-flex justify-content-between">
-                            <a class="p-2 link-secondary" href="/">Main</a>
-                            '.$this->renderAdminItem().'
-                            <a class="p-2 link-secondary" href="/rules">Rules</a>
-                        </nav>
-                    </div>';
-
-    }
-
-    private function renderAdminItem()
-    {
-        $result = '';
-        if(!empty($this->model->currentUser)) {
-            if($this->model->currentUser->login === 'SuperAdmin') {
-                $result = '<a class="p-2 link-secondary" href="/admin">AdminPage</a>';
-            }
-        }
-        return $result;
     }
 
     private function renderTitularBlock()

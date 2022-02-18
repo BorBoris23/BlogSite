@@ -1,22 +1,19 @@
 <?php
-namespace App\Pages\AdminPage;
+namespace App\Pages\AdminPages\AdminModels;
 
 use App\Models\Role;
 use App\Models\User;
 use Illuminate\Database\Capsule\Manager as Capsule;
 
-class AdminModel
+class UserChangeRoleModel extends AdminModel
 {
     public $users;
     public $roles;
-    private $limit;
-    private $offset;
     public $rowCount;
 
     public function __construct($pageSize, $pageNumber)
     {
-        $this->limit = $pageSize;
-        $this->offset = ($pageNumber - 1) * $pageSize;
+        parent::__construct($pageSize, $pageNumber);
         $this->rowCount = User::all()->count();
         $this->users = Capsule::table('users')
             ->offset($this->offset)

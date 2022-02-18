@@ -18,7 +18,6 @@ class Route
 
     private function prepareCallback(array $callback): Closure
     {
-        $callback = $this->whichCallbackToCall($callback);
         return function (...$params) use ($callback) {
             list($class, $method) = $callback;
             return (new $class)->{$method}(...$params);
@@ -39,32 +38,6 @@ class Route
     {
         $uri = preg_replace('/\?.*/', '', $uri);
         return preg_match('/^' . str_replace(['*', '/'], ['\w+', '\/'], $this->getPath()) . '$/',$uri) && $this->getMethod() === $method;
-    }
-
-    private function whichCallbackToCall($callback)
-    {
-        if($_SERVER['REQUEST_METHOD'] === 'POST') {
-            if($this->getValueFromRequestData('action_name', $_POST, null) === 'subscribe') {
-                $callback[1] = 'subscribe';
-            }
-            if($this->getValueFromRequestData('action_name', $_POST, null) === 'unsubscribe') {
-                $callback[1] = 'unsubscribe';
-            }
-        }
-        return $callback;
-    }
-
-    private function getValueFromRequestData($key, $arr, $defaultValue)
-    {
-        if (array_key_exists($key, $arr)) {
-            $result = $arr[$key];
-            if ($result === '') {
-                $result = $defaultValue;
-            }
-        } else {
-            $result = $defaultValue;
-        }
-        return $result;
     }
 
     public function run(string $uri)

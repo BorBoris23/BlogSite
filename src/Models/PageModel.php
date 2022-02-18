@@ -3,7 +3,6 @@ namespace App\Models;
 
 class PageModel
 {
-    public $exception;
     public $currentUser;
 
     public function __construct()

@@ -1,5 +1,5 @@
 <?php
-namespace App\Pages\AdminPage\AdminViews;
+namespace App\Pages\AdminPages\AdminViews;
 
 class AdminPagePaginationView
 {
@@ -14,29 +14,29 @@ class AdminPagePaginationView
        $this->rowCount = $rowCount;
    }
 
-    public function renderUmPagination()
+    public function renderUmPagination($pageName)
     {
         $isPrevDisabled = ($this->pageNumber == 1);
         $isNextDisabled = ($this->gettingCountPages() == $this->pageNumber);
         return '<nav aria-label="Page navigation example">
                     <ul class="pagination justify-content-center">
                         <li class="page-item ' . ($isPrevDisabled ? 'disabled' : '') . ' ">
-                            <a class="page-link" href="/admin?page=' . ($this->pageNumber - 1) . '" tabindex="-1" aria-disabled="true">Previous</a>
+                            <a class="page-link" href="'.$pageName.'?page=' . ($this->pageNumber - 1) . '" tabindex="-1" aria-disabled="true">Previous</a>
                         </li>
-                        ' .$this->renderUmPaginationItems() . '
+                        ' .$this->renderUmPaginationItems($pageName) . '
                         <li class="page-item ' . ($isNextDisabled ? 'disabled' : '') . ' ">
-                            <a class="page-link" href="/admin?page=' . ($this->pageNumber + 1) . '" tabindex="+1" aria-disabled="true">Next</a>
+                            <a class="page-link" href="'.$pageName.'?page=' . ($this->pageNumber + 1) . '" tabindex="+1" aria-disabled="true">Next</a>
                         </li>
                     </ul>
                 </nav>';
     }
 
-    private function renderUmPaginationItems()
+    private function renderUmPaginationItems($pageName)
     {
         $result = '';
         for ($pageNumber = 1; $pageNumber <= $this->gettingCountPages(); $pageNumber++) {
             $isCurrentPage = ($pageNumber === $this->pageNumber);
-            $result .= '<li class="page-item ' . ($isCurrentPage ? 'active' : '') . '"><a class="page-link" href="/admin?page=' . $pageNumber . '">' . $pageNumber . '</a></li>';
+            $result .= '<li class="page-item ' . ($isCurrentPage ? 'active' : '') . '"><a class="page-link" href="'.$pageName.'?page=' . $pageNumber . '">' . $pageNumber . '</a></li>';
         }
         return $result;
     }

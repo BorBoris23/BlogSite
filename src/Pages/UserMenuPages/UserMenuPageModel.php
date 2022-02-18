@@ -8,4 +8,5 @@ class UserMenuPageModel extends PageModel
     public $userName;
     public $userEmail;
     public $userLogin;
+    public $exception;
 }

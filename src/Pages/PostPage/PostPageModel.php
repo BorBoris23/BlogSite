@@ -8,11 +8,11 @@ class PostPageModel extends PageModel
 {
     public $post;
     public $commentText;
+    public $exception;
 
     public function __construct($login)
     {
         parent::__construct();
         $this->post = Post::where('id', '=', $login)->first();
-//        $this->currentUser = $this->getCurrentUser();
     }
 }
