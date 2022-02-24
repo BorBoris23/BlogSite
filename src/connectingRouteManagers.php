@@ -1,21 +1,23 @@
 <?php
 
-use App\Pages\ProfilePage\ProfilePageRouteManager;
-use App\Pages\HomePage\HomePageRouteManager;
-use App\Pages\AdminPages\AdminPageRouteManager;
-use App\Pages\UserMenuPages\UserMenuRouteManager;
-use App\Pages\PostPage\PostPageRouteManager;
-use App\Pages\RulesPage\RulesPageRouteManager;
+use App\Pages\Profile\ProfileRouteManager;
+use App\Pages\Home\HomeRouteManager;
+use App\Pages\Admin\AdminRouteManager;
+use App\Pages\UserMenu\UserMenuRouteManager;
+use App\Pages\Post\PostRouteManager;
+use App\Pages\Rules\RulesRouteManager;
+use App\Pages\WriteNewPost\WriteNewPostRoteManager;
 
-$HomePageRouteManager = new HomePageRouteManager();
+$HomeRouteManager = new HomeRouteManager();
 
-$AdminPageRouteManager = new AdminPageRouteManager();
+$AdminRouteManager = new AdminRouteManager();
 
 $UserMenuRouteManager = new UserMenuRouteManager();
 
-$ProfilePageRouteManager = new ProfilePageRouteManager();
+$ProfilePRouteManager = new ProfileRouteManager();
 
-$PostPageRouteManager = new PostPageRouteManager();
+$PostRouteManager = new PostRouteManager();
 
-$RolesPageRouteManager = new RulesPageRouteManager();
+$RolesRouteManager = new RulesRouteManager();
 
+$WriteNewPostRoutManager = new WriteNewPostRoteManager();

@@ -9,7 +9,6 @@ use Illuminate\Database\Eloquent\Builder;
  * @package App\Models
  * @mixin Builder
  */
-
 class Comment extends Model
 {
     protected $table = 'comments';

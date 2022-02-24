@@ -9,7 +9,6 @@ use Illuminate\Database\Eloquent\Builder;
  * @package App\Models
  * @mixin Builder
  */
-
 class UsersHasRoles extends Model
 {
     protected $table = 'users_has_roles';

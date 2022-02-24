@@ -9,7 +9,6 @@ use Illuminate\Database\Eloquent\Builder;
  * @package App\Models
  * @mixin Builder
  */
-
 class User extends Model
 {
     protected $table = 'users';
@@ -24,11 +23,4 @@ class User extends Model
     {
         return $this->hasMany(Post::class);
     }
-
-    public function subscriptions()
-    {
-        return $this->hasMany(Subscription::class);
-    }
 }
-
-

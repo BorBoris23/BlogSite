@@ -9,7 +9,6 @@ use Illuminate\Database\Eloquent\Builder;
  * @package App\Models
  * @mixin Builder
  */
-
 class Post extends Model
 {
     protected $table = 'posts';
@@ -25,4 +24,3 @@ class Post extends Model
         return $this->hasMany(Comment::class);
     }
 }
-

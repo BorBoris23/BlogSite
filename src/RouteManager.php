@@ -13,4 +13,3 @@ abstract class RouteManager
 
    abstract public function addRoute();
 }
-

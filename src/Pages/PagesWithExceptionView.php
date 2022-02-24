@@ -26,6 +26,7 @@ abstract class PagesWithExceptionView extends PageView
         return '<div class="nav-scroller py-1 mb-2">
                         <nav class="nav d-flex justify-content-between">
                             <a class="p-2 link-secondary" href="/">Main</a>
+                            <a class="p-2 link-secondary" href="/writeNewPost">Write new post</a>
                             '.$this->renderAdminItem().'
                             <a class="p-2 link-secondary" href="/rules">Rules</a>
                         </nav>
@@ -38,7 +39,7 @@ abstract class PagesWithExceptionView extends PageView
         $result = '';
         if(!empty($this->model->currentUser)) {
             if($this->model->currentUser->login === 'SuperAdmin') {
-                $result = '<a class="p-2 link-secondary" href="/admin">AdminPages</a>';
+                $result = '<a class="p-2 link-secondary" href="/admin">Admin</a>';
             }
         }
         return $result;

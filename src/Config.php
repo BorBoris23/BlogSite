@@ -36,4 +36,3 @@ final class Config
         return array_get($this->configs,$key, $defult = null);
     }
 }
-

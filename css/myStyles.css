@@ -38,6 +38,11 @@
     margin-left: 35%;
 }
 
+.writeTitle {
+    margin-bottom: 10px;
+}
+
+.btn-addNewImg,
 .authorFormItem {
     margin-top: 10px;
 }
@@ -67,4 +72,9 @@
 
 .deleteComment{
     margin-left: 10px;
+}
+
+.uploadItem {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

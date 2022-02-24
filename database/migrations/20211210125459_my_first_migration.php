@@ -18,11 +18,12 @@ final class MyFirstMigration extends AbstractMigration
 
         $table = $this->table('posts');
         $table->addColumn('heading', 'string', ['limit' => 50, 'null' => false])
-            ->addColumn('shortDescription', 'string', ['limit' => 255, 'null' => false])
+            ->addColumn('shortDescription', 'string', ['limit' => 255, 'null' => true])
             ->addColumn('content', 'string', ['limit' => 1500, 'null' => false])
-            ->addColumn('pathToPictures', 'string', ['limit' => 255, 'null' => true])
+            ->addColumn('pathToImg', 'string', ['limit' => 255, 'null' => true])
             ->addColumn('user_id', 'integer', ['null' => true])
             ->addColumn('created', 'timestamp', ['default' => 'CURRENT_TIMESTAMP'])
+            ->addColumn('published', 'integer', ['null' => false])
             ->addForeignKey('user_id', 'users', 'id', ['delete'=> 'SET_NULL', 'update'=> 'NO_ACTION'])
             ->create();
 
